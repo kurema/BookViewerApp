@@ -127,10 +127,11 @@
     <None Include="BookViewerApp_TemporaryKey.pfx" />
     <None Include="BookViewerApp_TemporaryKey2.pfx" />
     <None Include="BookViewerApp_TemporaryKey3.pfx" />
-    <PRIResource Include="Resource\Resources.lang-zh-CN.resw" />
-    <PRIResource Include="Resource\Resources.lang-zh-TW.resw" />
-    <PRIResource Include="Resource\Resources.lang-ja-JP.resw" />
-    <PRIResource Include="Resource\Resources.lang-en-US.resw" />
+    <PRIResource Include="Resource\zh-Hans\Resources.resw" />
+    <PRIResource Include="Resource\ja-JP\Resources.resw" />
+    <PRIResource Include="Resource\it\Resources.resw" />
+    <PRIResource Include="Resource\en-US\Resources.resw" />
+    <PRIResource Include="Resource\zh-Hant\Resources.resw" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">

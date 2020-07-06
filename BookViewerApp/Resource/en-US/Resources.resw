@@ -124,7 +124,7 @@
     <value>Add a directory</value>
   </data>
   <data name="AppName" xml:space="preserve">
-    <value>Book Viewer</value>
+    <value>BookViewer3</value>
   </data>
   <data name="BookmarkBasic.Title" xml:space="preserve">
     <value>Bookmark</value>
@@ -199,31 +199,31 @@
     <value>Set full screen mode on when you open a book.</value>
   </data>
   <data name="Setting_DefaultFullScreen.Title" xml:space="preserve">
-    <value>Set full screen as default.</value>
+    <value>Set full screen as default</value>
   </data>
   <data name="Setting_DefaultPageReverse.Description" xml:space="preserve">
     <value>Reverse page as default when you open a new book.</value>
   </data>
   <data name="Setting_DefaultPageReverse.Title" xml:space="preserve">
-    <value>Reverse page as default.</value>
+    <value>Reverse page as default</value>
   </data>
   <data name="Setting_SaveLastReadPage.Description" xml:space="preserve">
     <value>Automatically open page where you read last time.</value>
   </data>
   <data name="Setting_SaveLastReadPage.Title" xml:space="preserve">
-    <value>Automatically open last read page.</value>
+    <value>Automatically open last read page</value>
   </data>
   <data name="Setting_ShowRightmostAndLeftmost.Description" xml:space="preserve">
     <value>Show go to rightmost/leftmost button in book viewer.</value>
   </data>
   <data name="Setting_ShowRightmostAndLeftmost.Title" xml:space="preserve">
-    <value>Show go to rightmost /leftmost button.</value>
+    <value>Show go to rightmost /leftmost button</value>
   </data>
   <data name="Setting_SyncBookmarks.Description" xml:space="preserve">
-    <value>Sync bookmarks over the cloud.</value>
+    <value>Sync bookmarks of books over the cloud.</value>
   </data>
   <data name="Setting_SyncBookmarks.Title" xml:space="preserve">
-    <value>Sync bookmarks.</value>
+    <value>Sync bookmarks of books</value>
   </data>
   <data name="ToggleFullScreen.Label" xml:space="preserve">
     <value>Toggle full screen mode.</value>
@@ -259,7 +259,7 @@
     <value>Brightness of background. 100:White, 0:Black. (Opposite in dark theme)</value>
   </data>
   <data name="Setting_BackgroundBrightness.Title" xml:space="preserve">
-    <value>Brightness of background.</value>
+    <value>Brightness of background</value>
   </data>
   <data name="Setting_ScrollAnimation.Description" xml:space="preserve">
     <value>Use scroll animation on book viewer.</value>
@@ -268,7 +268,7 @@
     <value>Scroll animation</value>
   </data>
   <data name="Setting_BookNameTrim.Description" xml:space="preserve">
-    <value>Mathed part is hidden in book name. Input in regular expression. (ex:\(.*\))</value>
+    <value>Matched part is hidden in book name. Input in regular expression. (ex:\(.*\))</value>
   </data>
   <data name="Setting_BookNameTrim.Title" xml:space="preserve">
     <value>Book name to trim</value>
@@ -314,5 +314,261 @@
   </data>
   <data name="Welcome_OpenMenu" xml:space="preserve">
     <value>Open the menu.</value>
+  </data>
+  <data name="Setting_WebHomePage.Description" xml:space="preserve">
+    <value>Home Page.</value>
+  </data>
+  <data name="Setting_WebHomePage.Title" xml:space="preserve">
+    <value>Home Page</value>
+  </data>
+  <data name="Setting_RespectPageDirectionInfo.Description" xml:space="preserve">
+    <value>Respect direction information of PDF (R2L/L2R).</value>
+  </data>
+  <data name="Setting_RespectPageDirectionInfo.Title" xml:space="preserve">
+    <value>Respect direction information</value>
+  </data>
+  <data name="Password.Message" xml:space="preserve">
+    <value>Enter password to open.</value>
+  </data>
+  <data name="Password.Save.Message" xml:space="preserve">
+    <value>Save Password</value>
+  </data>
+  <data name="Password.Title" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="Word.Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Word.OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Setting.Group.Browser" xml:space="preserve">
+    <value>Browser</value>
+  </data>
+  <data name="Setting.Group.Cloud" xml:space="preserve">
+    <value>Cloud</value>
+  </data>
+  <data name="Setting.Group.Library" xml:space="preserve">
+    <value>Library</value>
+  </data>
+  <data name="Setting.Group.Obsolete" xml:space="preserve">
+    <value>Obsolete</value>
+  </data>
+  <data name="Setting.Group.Viewer" xml:space="preserve">
+    <value>Viewer</value>
+  </data>
+  <data name="TabHeader.Bookshelf" xml:space="preserve">
+    <value>Bookshelf</value>
+  </data>
+  <data name="TabHeader.BookViewer" xml:space="preserve">
+    <value>Viewer</value>
+  </data>
+  <data name="TabHeader.Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="TabHeader.Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="TabHeader.NewTab" xml:space="preserve">
+    <value>New Tab</value>
+  </data>
+  <data name="TabHeader.Setting" xml:space="preserve">
+    <value>Config</value>
+  </data>
+  <data name="TabHeader.Epub" xml:space="preserve">
+    <value>Epub</value>
+  </data>
+  <data name="TabHeader.Main" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="TabHeader.Browser" xml:space="preserve">
+    <value>Browser</value>
+  </data>
+  <data name="TabHeader.Explorer" xml:space="preserve">
+    <value>Explorer</value>
+  </data>
+  <data name="Explorer.Apps" xml:space="preserve">
+    <value>Apps</value>
+  </data>
+  <data name="Explorer.Browser" xml:space="preserve">
+    <value>Browser</value>
+  </data>
+  <data name="Explorer.PickBook" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Explorer.Setting" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="ExplorerContainer.Bookmarks" xml:space="preserve">
+    <value>Bookmarks</value>
+  </data>
+  <data name="ExplorerContainer.Folders" xml:space="preserve">
+    <value>Folders</value>
+  </data>
+  <data name="ExplorerContainer.Histories" xml:space="preserve">
+    <value>Histories</value>
+  </data>
+  <data name="ExplorerContainer.Libraries" xml:space="preserve">
+    <value>Libraries</value>
+  </data>
+  <data name="ExplorerContainer.PC" xml:space="preserve">
+    <value>This PC</value>
+  </data>
+  <data name="ContextMenu.Folders.RegisterFolder.Title" xml:space="preserve">
+    <value>Register a folder</value>
+  </data>
+  <data name="ContextMenu.Folders.UnregisterFolder.Title" xml:space="preserve">
+    <value>Unregister a folder</value>
+  </data>
+  <data name="ContextMenu.Folders.UnregisterFolder.MessageDialog.Message" xml:space="preserve">
+    <value>The folder is referred by following library.
+Are you sure to unregister?</value>
+  </data>
+  <data name="ContextMenu.Folders.UnregisterFolder.MessageDialog.Title" xml:space="preserve">
+    <value>Unregister folder</value>
+  </data>
+  <data name="ContextMenu.Library.New.Title" xml:space="preserve">
+    <value>New library</value>
+  </data>
+  <data name="ContextMenu.StorageFolder.AddToLibrary.Title" xml:space="preserve">
+    <value>Add to a library</value>
+  </data>
+  <data name="ContextMenu.StorageFolder.AddToLibrary.AlreadyRegistered.MessageDialog.Message" xml:space="preserve">
+    <value>The folder is already registered.</value>
+  </data>
+  <data name="ContextMenu.StorageFolder.AddToLibrary.AlreadyRegistered.MessageDialog.Title" xml:space="preserve">
+    <value>Unable to registered</value>
+  </data>
+  <data name="Setting_ShowPresetBookmarks.Description" xml:space="preserve">
+    <value>Show preset bookmarks.</value>
+  </data>
+  <data name="Setting_ShowPresetBookmarks.Title" xml:space="preserve">
+    <value>Show preset bookmarks</value>
+  </data>
+  <data name="Setting.Group.Explorer" xml:space="preserve">
+    <value>Explorer</value>
+  </data>
+  <data name="Setting_WebSearchEngine.Description" xml:space="preserve">
+    <value>Set the URL of search engine which is used when searching from address bar(%s in place of query).</value>
+  </data>
+  <data name="Setting_WebSearchEngine.Title" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="ContextMenu.Histories.HideHistores.Title" xml:space="preserve">
+    <value>Hide histories</value>
+  </data>
+  <data name="ContextMenu.Histories.ShowHistores.Title" xml:space="preserve">
+    <value>Show histories</value>
+  </data>
+  <data name="Setting_ShowHistories.Description" xml:space="preserve">
+    <value>Show histories.</value>
+  </data>
+  <data name="Setting_ShowHistories.Title" xml:space="preserve">
+    <value>Show histories</value>
+  </data>
+  <data name="ItemType.BookmarkContainer" xml:space="preserve">
+    <value>Bookmark folder</value>
+  </data>
+  <data name="ItemType.BookmarkItem" xml:space="preserve">
+    <value>Bookmark item</value>
+  </data>
+  <data name="ItemType.HistoryItem" xml:space="preserve">
+    <value>History item</value>
+  </data>
+  <data name="ItemType.PresetBookmark" xml:space="preserve">
+    <value>Preset bookmarks</value>
+  </data>
+  <data name="ContextMenu.Histories.OpenParent.Title" xml:space="preserve">
+    <value>Open containing folder</value>
+  </data>
+  <data name="ItemType.LibraryItem" xml:space="preserve">
+    <value>Library</value>
+  </data>
+  <data name="ItemType.SystemFolder" xml:space="preserve">
+    <value>System Folder</value>
+  </data>
+  <data name="ContextMenu.Bookmarks.HidePreset.Title" xml:space="preserve">
+    <value>Hide preset bookmarks</value>
+  </data>
+  <data name="ContextMenu.Bookmarks.ShowPreset.Title" xml:space="preserve">
+    <value>Show preset bookmarks</value>
+  </data>
+  <data name="ContextMenu.Library.Unregister.Title" xml:space="preserve">
+    <value>Unregister this library</value>
+  </data>
+  <data name="Setting_MaximumHistoryCount.Description" xml:space="preserve">
+    <value>Maximum number of histories to be saved.</value>
+  </data>
+  <data name="Setting_MaximumHistoryCount.Title" xml:space="preserve">
+    <value>Number of histories</value>
+  </data>
+  <data name="ContextMenu.Library.Manage.Title" xml:space="preserve">
+    <value>Manage this library</value>
+  </data>
+  <data name="ContextMenu.Word.New.Title" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="ContextMenu.Word.NewContaiener.Title" xml:space="preserve">
+    <value>New folder</value>
+  </data>
+  <data name="Word.Folder" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="ContextMenu.Word.New.Bookmark.Title" xml:space="preserve">
+    <value>Bookmark</value>
+  </data>
+  <data name="Word.Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Word.URL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ContextMenu.Bookmarks.Edit.Title" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Info.Debug.CopyFAL" xml:space="preserve">
+    <value>Copy FutureAccessList info.</value>
+  </data>
+  <data name="Info.Debug.OpenAppData" xml:space="preserve">
+    <value>Open data folder.</value>
+  </data>
+  <data name="Info.Debug.Title" xml:space="preserve">
+    <value>Debug</value>
+  </data>
+  <data name="Info.Info.BeSponsor" xml:space="preserve">
+    <value>Be a sponsor!</value>
+  </data>
+  <data name="Info.Info.Contributors" xml:space="preserve">
+    <value>Contributors</value>
+  </data>
+  <data name="Info.Info.Privacy.Description" xml:space="preserve">
+    <value>Show Privacy Policy</value>
+  </data>
+  <data name="Info.Info.Privacy.Title" xml:space="preserve">
+    <value>Privacy</value>
+  </data>
+  <data name="Info.Info.Sponsors" xml:space="preserve">
+    <value>Sponsors</value>
+  </data>
+  <data name="Info.Info.ThirdParty.License" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="Info.Info.ThirdParty.LicenseTerms" xml:space="preserve">
+    <value>License Terms</value>
+  </data>
+  <data name="Info.Info.ThirdParty.Title" xml:space="preserve">
+    <value>Third-Party Notification</value>
+  </data>
+  <data name="Info.Info.Title" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="Info.Info.Translation" xml:space="preserve">
+    <value>Translation</value>
+  </data>
+  <data name="Info.Info.ThirdParty.ThirdParty" xml:space="preserve">
+    <value>Third-Party</value>
+  </data>
+  <data name="Info.Info.Developers" xml:space="preserve">
+    <value>Developers</value>
   </data>
 </root>

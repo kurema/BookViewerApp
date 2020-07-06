@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutThisApp.Label" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="AddLocalDirectory.Label" xml:space="preserve">
+    <value>フォルダを追加</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>BookViewer3</value>
+  </data>
+  <data name="BookmarkBasic.Title" xml:space="preserve">
+    <value>栞</value>
+  </data>
+  <data name="BookmarkLastread.Title" xml:space="preserve">
+    <value>[自動保存]</value>
+  </data>
+  <data name="Bookmarks.Label" xml:space="preserve">
+    <value>栞</value>
+  </data>
+  <data name="BookmarkTitle.PlaceholderText" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="BookNext.Label" xml:space="preserve">
+    <value>次の本へ</value>
+  </data>
+  <data name="BookPrevious.Label" xml:space="preserve">
+    <value>前の本へ</value>
+  </data>
+  <data name="BookShelfTitleNew" xml:space="preserve">
+    <value>本棚</value>
+  </data>
+  <data name="ClearAllBookShelf.Label" xml:space="preserve">
+    <value>本棚を全て削除</value>
+  </data>
+  <data name="GoToBookShelf.Label" xml:space="preserve">
+    <value>本棚を開く</value>
+  </data>
+  <data name="LoadingFolder.Completed.Message" xml:space="preserve">
+    <value>読み込みが完了しました。</value>
+  </data>
+  <data name="LoadingFolder.Started.Message" xml:space="preserve">
+    <value>フォルダの読み込みが完了するまで操作を継続できます。読み込みが完了し通知されるまでまでアプリを終了したりスリープ状態にしないでください。</value>
+  </data>
+  <data name="LoadingFolder.Title" xml:space="preserve">
+    <value>フォルダ読み込み</value>
+  </data>
+  <data name="OpenLocalBook.Label" xml:space="preserve">
+    <value>開く</value>
+  </data>
+  <data name="PageEnd.Label" xml:space="preserve">
+    <value>最後</value>
+  </data>
+  <data name="PageLeft.Label" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="PageLeftmost.Label" xml:space="preserve">
+    <value>左端</value>
+  </data>
+  <data name="PageNext.Label" xml:space="preserve">
+    <value>次</value>
+  </data>
+  <data name="PagePrevious.Label" xml:space="preserve">
+    <value>前</value>
+  </data>
+  <data name="PageReverse.Label" xml:space="preserve">
+    <value>ページ方向を転換</value>
+  </data>
+  <data name="PageRight.Label" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="PageRightmost.Label" xml:space="preserve">
+    <value>右端</value>
+  </data>
+  <data name="PageTop.Label" xml:space="preserve">
+    <value>最初</value>
+  </data>
+  <data name="Setting.Label" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Setting_DefaultFullScreen.Description" xml:space="preserve">
+    <value>ブックビュワーを開いた時、自動的に全画面モードに切り替えます。</value>
+  </data>
+  <data name="Setting_DefaultFullScreen.Title" xml:space="preserve">
+    <value>標準で全画面表示にする</value>
+  </data>
+  <data name="Setting_DefaultPageReverse.Description" xml:space="preserve">
+    <value>新たに開いた本を右綴じと認識する。</value>
+  </data>
+  <data name="Setting_DefaultPageReverse.Title" xml:space="preserve">
+    <value>標準で右綴じにする</value>
+  </data>
+  <data name="Setting_SaveLastReadPage.Description" xml:space="preserve">
+    <value>自動的に前回その本を読んだページを開きます。</value>
+  </data>
+  <data name="Setting_SaveLastReadPage.Title" xml:space="preserve">
+    <value>前回読んだページを開く</value>
+  </data>
+  <data name="Setting_ShowRightmostAndLeftmost.Description" xml:space="preserve">
+    <value>ブックビュワーで右端/左端へ移動するボタンを表示する。</value>
+  </data>
+  <data name="Setting_ShowRightmostAndLeftmost.Title" xml:space="preserve">
+    <value>右端/左端へのボタンを表示する</value>
+  </data>
+  <data name="Setting_SyncBookmarks.Description" xml:space="preserve">
+    <value>クラウドを通じて栞を同期する。</value>
+  </data>
+  <data name="Setting_SyncBookmarks.Title" xml:space="preserve">
+    <value>栞を同期する</value>
+  </data>
+  <data name="ToggleFullScreen.Label" xml:space="preserve">
+    <value>全画面モード切替</value>
+  </data>
+  <data name="ClearThisBookShelf.Label" xml:space="preserve">
+    <value>本棚を削除</value>
+  </data>
+  <data name="SetThisBookShelfSecret.Label" xml:space="preserve">
+    <value>本棚を秘密にする</value>
+  </data>
+  <data name="Setting_TileHeight.Description" xml:space="preserve">
+    <value>本棚で本を示すタイルの高さ</value>
+  </data>
+  <data name="Setting_TileHeight.Title" xml:space="preserve">
+    <value>本タイルの高さ</value>
+  </data>
+  <data name="Setting_TileWidth.Description" xml:space="preserve">
+    <value>本棚で本を示すタイルの幅</value>
+  </data>
+  <data name="Setting_TileWidth.Title" xml:space="preserve">
+    <value>本タイルの幅</value>
+  </data>
+  <data name="ReloadBookShelf.Label" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="BookmarkLast.Title" xml:space="preserve">
+    <value>[最終]</value>
+  </data>
+  <data name="BookmarkTop.Title" xml:space="preserve">
+    <value>[先頭]</value>
+  </data>
+  <data name="Setting_BackgroundBrightness.Description" xml:space="preserve">
+    <value>背景色の明るさを設定します。100で白、0で黒です。 (ダークテーマでは反転)</value>
+  </data>
+  <data name="Setting_BackgroundBrightness.Title" xml:space="preserve">
+    <value>背景色の明るさ</value>
+  </data>
+  <data name="Setting_ScrollAnimation.Description" xml:space="preserve">
+    <value>読書画面でのスクロール時にアニメーション表示する。</value>
+  </data>
+  <data name="Setting_ScrollAnimation.Title" xml:space="preserve">
+    <value>スクロールアニメーション</value>
+  </data>
+  <data name="Setting_BookNameTrim.Description" xml:space="preserve">
+    <value>ファイル名の内で該当した部分を表示しません。正規表現で入力。(例:\(.*\))</value>
+  </data>
+  <data name="Setting_BookNameTrim.Title" xml:space="preserve">
+    <value>除外対象ファイル名</value>
+  </data>
+  <data name="Setting_FolderNameToExclude.Description" xml:space="preserve">
+    <value>正規表現で該当した場合、本棚に表示しません。</value>
+  </data>
+  <data name="Setting_FolderNameToExclude.Title" xml:space="preserve">
+    <value>除外対象フォルダ名</value>
+  </data>
+  <data name="Setting_SortCoverComesFirst.Description" xml:space="preserve">
+    <value>Cbz/Cbrファイル内で"cover"を含むファイルを先頭にします。</value>
+  </data>
+  <data name="Setting_SortCoverComesFirst.Title" xml:space="preserve">
+    <value>"cover"を含むファイルを先頭にする</value>
+  </data>
+  <data name="Setting_SortNaturalOrder.Description" xml:space="preserve">
+    <value>Cbz/Cbrファイル内のソートを自然順(例:01.jpg→2.jpg→003.jpg)にします。</value>
+  </data>
+  <data name="Setting_SortNaturalOrder.Title" xml:space="preserve">
+    <value>自然順ソート</value>
+  </data>
+  <data name="Setting_ZoomButtonShowTimespan.Description" xml:space="preserve">
+    <value>画面をタッチした際ズームボタンを表示する時間 (0で非表示)</value>
+  </data>
+  <data name="Setting_ZoomButtonShowTimespan.Title" xml:space="preserve">
+    <value>ズームボタン表示時間</value>
+  </data>
+  <data name="Setting_CommandBarShowTimespan.Description" xml:space="preserve">
+    <value>書籍画面で画面をタッチした際メニューを表示する時間 (0で常時表示)</value>
+  </data>
+  <data name="Setting_CommandBarShowTimespan.Title" xml:space="preserve">
+    <value>書籍メニュー表示時間</value>
+  </data>
+  <data name="SwitchBookShelfToggle.ToolTipService.ToolTip" xml:space="preserve">
+    <value>本棚を切り替え</value>
+  </data>
+  <data name="Welcome_HowToConfigure" xml:space="preserve">
+    <value>設定の開き方</value>
+  </data>
+  <data name="Welcome_HowToUse" xml:space="preserve">
+    <value>使い方</value>
+  </data>
+  <data name="Welcome_OpenMenu" xml:space="preserve">
+    <value>メニューを開く</value>
+  </data>
+  <data name="Setting_WebHomePage.Description" xml:space="preserve">
+    <value>ホームページを設定します。</value>
+  </data>
+  <data name="Setting_WebHomePage.Title" xml:space="preserve">
+    <value>ホームページ</value>
+  </data>
+  <data name="Setting_RespectPageDirectionInfo.Description" xml:space="preserve">
+    <value>PDFファイルの綴じ方情報を参照する。</value>
+  </data>
+  <data name="Setting_RespectPageDirectionInfo.Title" xml:space="preserve">
+    <value>綴じ方情報を参照する</value>
+  </data>
+  <data name="Password.Message" xml:space="preserve">
+    <value>パスワードを入力してください。</value>
+  </data>
+  <data name="Password.Save.Message" xml:space="preserve">
+    <value>パスワードを保存する。</value>
+  </data>
+  <data name="Password.Title" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="Word.Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Word.OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Setting.Group.Browser" xml:space="preserve">
+    <value>ブラウザ</value>
+  </data>
+  <data name="Setting.Group.Cloud" xml:space="preserve">
+    <value>クラウド</value>
+  </data>
+  <data name="Setting.Group.Library" xml:space="preserve">
+    <value>ライブラリ</value>
+  </data>
+  <data name="Setting.Group.Obsolete" xml:space="preserve">
+    <value>旧設定</value>
+  </data>
+  <data name="Setting.Group.Viewer" xml:space="preserve">
+    <value>ビュワー</value>
+  </data>
+  <data name="TabHeader.Bookshelf" xml:space="preserve">
+    <value>本棚</value>
+  </data>
+  <data name="TabHeader.BookViewer" xml:space="preserve">
+    <value>ビュワー</value>
+  </data>
+  <data name="TabHeader.Home" xml:space="preserve">
+    <value>ホーム</value>
+  </data>
+  <data name="TabHeader.Info" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="TabHeader.NewTab" xml:space="preserve">
+    <value>新しいタブ</value>
+  </data>
+  <data name="TabHeader.Setting" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="TabHeader.Epub" xml:space="preserve">
+    <value>Epub</value>
+  </data>
+  <data name="TabHeader.Main" xml:space="preserve">
+    <value>メイン</value>
+  </data>
+  <data name="TabHeader.Browser" xml:space="preserve">
+    <value>ブラウザ</value>
+  </data>
+  <data name="TabHeader.Explorer" xml:space="preserve">
+    <value>ファイラー</value>
+  </data>
+  <data name="Explorer.Apps" xml:space="preserve">
+    <value>アプリ</value>
+  </data>
+  <data name="Explorer.Browser" xml:space="preserve">
+    <value>ブラウザ</value>
+  </data>
+  <data name="Explorer.PickBook" xml:space="preserve">
+    <value>ファイルを開く</value>
+  </data>
+  <data name="Explorer.Setting" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="ExplorerContainer.Bookmarks" xml:space="preserve">
+    <value>ブックマーク</value>
+  </data>
+  <data name="ExplorerContainer.Folders" xml:space="preserve">
+    <value>フォルダ</value>
+  </data>
+  <data name="ExplorerContainer.Histories" xml:space="preserve">
+    <value>履歴</value>
+  </data>
+  <data name="ExplorerContainer.Libraries" xml:space="preserve">
+    <value>ライブラリ</value>
+  </data>
+  <data name="ExplorerContainer.PC" xml:space="preserve">
+    <value>PC</value>
+  </data>
+  <data name="ContextMenu.Folders.RegisterFolder.Title" xml:space="preserve">
+    <value>フォルダを登録</value>
+  </data>
+  <data name="ContextMenu.Folders.UnregisterFolder.Title" xml:space="preserve">
+    <value>フォルダを登録解除</value>
+  </data>
+  <data name="ContextMenu.Folders.UnregisterFolder.MessageDialog.Message" xml:space="preserve">
+    <value>このフォルダは以下のライブラリで使用されています。
+解除してよろしいですか？</value>
+  </data>
+  <data name="ContextMenu.Folders.UnregisterFolder.MessageDialog.Title" xml:space="preserve">
+    <value>フォルダの解除</value>
+  </data>
+  <data name="ContextMenu.Library.New.Title" xml:space="preserve">
+    <value>新しいライブラリ</value>
+  </data>
+  <data name="ContextMenu.StorageFolder.AddToLibrary.Title" xml:space="preserve">
+    <value>ライブラリに追加</value>
+  </data>
+  <data name="ContextMenu.StorageFolder.AddToLibrary.AlreadyRegistered.MessageDialog.Message" xml:space="preserve">
+    <value>このフォルダは登録済みです。</value>
+  </data>
+  <data name="ContextMenu.StorageFolder.AddToLibrary.AlreadyRegistered.MessageDialog.Title" xml:space="preserve">
+    <value>登録不能</value>
+  </data>
+  <data name="Setting_ShowPresetBookmarks.Description" xml:space="preserve">
+    <value>プリセットのブックマークを表示。</value>
+  </data>
+  <data name="Setting_ShowPresetBookmarks.Title" xml:space="preserve">
+    <value>プリセットのブックマーク</value>
+  </data>
+  <data name="Setting.Group.Explorer" xml:space="preserve">
+    <value>ファイラー</value>
+  </data>
+  <data name="Setting_WebSearchEngine.Description" xml:space="preserve">
+    <value>検索エンジンのURL(%s：検索語句)。</value>
+  </data>
+  <data name="Setting_WebSearchEngine.Title" xml:space="preserve">
+    <value>検索エンジン</value>
+  </data>
+  <data name="ContextMenu.Histories.HideHistores.Title" xml:space="preserve">
+    <value>履歴を非表示にする</value>
+  </data>
+  <data name="ContextMenu.Histories.ShowHistores.Title" xml:space="preserve">
+    <value>履歴を表示する</value>
+  </data>
+  <data name="Setting_ShowHistories.Description" xml:space="preserve">
+    <value>ファイラーに履歴を表示する。</value>
+  </data>
+  <data name="Setting_ShowHistories.Title" xml:space="preserve">
+    <value>履歴の表示</value>
+  </data>
+  <data name="ItemType.BookmarkContainer" xml:space="preserve">
+    <value>ブックマーク フォルダー</value>
+  </data>
+  <data name="ItemType.BookmarkItem" xml:space="preserve">
+    <value>ブックマーク</value>
+  </data>
+  <data name="ItemType.HistoryItem" xml:space="preserve">
+    <value>履歴項目</value>
+  </data>
+  <data name="ItemType.PresetBookmark" xml:space="preserve">
+    <value>プリセットブックマーク</value>
+  </data>
+  <data name="ItemType.LibraryItem" xml:space="preserve">
+    <value>ライブラリ</value>
+  </data>
+  <data name="ItemType.SystemFolder" xml:space="preserve">
+    <value>システム フォルダー</value>
+  </data>
+  <data name="ContextMenu.Histories.OpenParent.Title" xml:space="preserve">
+    <value>ファイルの場所を開く</value>
+  </data>
+  <data name="ContextMenu.Bookmarks.HidePreset.Title" xml:space="preserve">
+    <value>プリセットブックマークを表示しない</value>
+  </data>
+  <data name="ContextMenu.Bookmarks.ShowPreset.Title" xml:space="preserve">
+    <value>プリセットブックマークを表示する</value>
+  </data>
+  <data name="ContextMenu.Library.Unregister.Title" xml:space="preserve">
+    <value>ライブラリを登録解除</value>
+  </data>
+  <data name="Setting_MaximumHistoryCount.Description" xml:space="preserve">
+    <value>履歴の保存件数。</value>
+  </data>
+  <data name="Setting_MaximumHistoryCount.Title" xml:space="preserve">
+    <value>履歴件数</value>
+  </data>
+  <data name="ContextMenu.Library.Manage.Title" xml:space="preserve">
+    <value>ライブラリを管理</value>
+  </data>
+  <data name="ContextMenu.Word.New.Title" xml:space="preserve">
+    <value>新規作成</value>
+  </data>
+  <data name="Word.Folder" xml:space="preserve">
+    <value>フォルダー</value>
+  </data>
+  <data name="ContextMenu.Word.NewContaiener.Title" xml:space="preserve">
+    <value>新しいフォルダー</value>
+  </data>
+  <data name="ContextMenu.Word.New.Bookmark.Title" xml:space="preserve">
+    <value>インターネットショートカット</value>
+  </data>
+  <data name="Word.Title" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="Word.URL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ContextMenu.Bookmarks.Edit.Title" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="Info.Info.Contributors" xml:space="preserve">
+    <value>貢献者</value>
+  </data>
+  <data name="Info.Info.Sponsors" xml:space="preserve">
+    <value>スポンサー</value>
+  </data>
+  <data name="Info.Info.ThirdParty.License" xml:space="preserve">
+    <value>ライセンス</value>
+  </data>
+  <data name="Info.Info.ThirdParty.LicenseTerms" xml:space="preserve">
+    <value>ライセンス条項</value>
+  </data>
+  <data name="Info.Info.Title" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="Info.Info.Translation" xml:space="preserve">
+    <value>翻訳</value>
+  </data>
+  <data name="Info.Info.ThirdParty.Title" xml:space="preserve">
+    <value>サードパーティー情報</value>
+  </data>
+  <data name="Info.Info.BeSponsor" xml:space="preserve">
+    <value>支援する</value>
+  </data>
+  <data name="Info.Info.Privacy.Description" xml:space="preserve">
+    <value>プライバシーポリシーを表示 (英語)</value>
+  </data>
+  <data name="Info.Info.Privacy.Title" xml:space="preserve">
+    <value>プライバシー</value>
+  </data>
+  <data name="Info.Debug.OpenAppData" xml:space="preserve">
+    <value>データフォルダーを開く</value>
+  </data>
+  <data name="Info.Debug.Title" xml:space="preserve">
+    <value>デバッグ</value>
+  </data>
+  <data name="Info.Debug.CopyFAL" xml:space="preserve">
+    <value>FutureAccessList情報をクリップボードにコピー</value>
+  </data>
+  <data name="Info.Info.ThirdParty.ThirdParty" xml:space="preserve">
+    <value>サードパーティー</value>
+  </data>
+  <data name="Info.Info.Developers" xml:space="preserve">
+    <value>開発者</value>
+  </data>
+</root>

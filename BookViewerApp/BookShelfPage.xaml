@@ -5,16 +5,20 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:BookShelfViewModels="using:BookViewerApp.BookShelfViewModels"
+    xmlns:vc="using:BookViewerApp.ValueConverters"
     x:Class="BookViewerApp.BookShelfPage"
     mc:Ignorable="d"
     >
+    <Page.Resources>
+        <vc:LocalizeConverter x:Key="vc_localize"/>
+    </Page.Resources>
     <Page.BottomAppBar>
         <CommandBar>
             <CommandBar.SecondaryCommands>
                 <AppBarButton x:Uid="ClearAllBookShelf" Icon="Clear" Label="" Click="AppBarButton_Click_ClearBookShelfStorage"/>
                 <AppBarButton x:Uid="ClearThisBookShelf" Icon="Clear" Label="" Click="AppBarButton_Click_AppBarButton_Click_ClearBookShelfStorageSingle"/>
                 <AppBarButton x:Uid="SetThisBookShelfSecret" Icon="Clear" Label="" Click="AppBarButton_Click_SetThisBookShelfSecret" x:Name="AppBarButtonToggleSecret" Visibility="Collapsed"/>
-                <AppBarButton x:Uid="Setting" Click="AppBarButton_Click_GoToSetting"/>
+                <AppBarButton Label="{x:Bind Converter={StaticResource vc_localize},ConverterParameter=Setting/Label,TargetNullValue=0,Mode=OneWay}" Click="AppBarButton_Click_GoToSetting"/>
                 <AppBarButton x:Uid="AboutThisApp" Tapped="AppBarButton_Click_GoToInfoPage" IsRightTapEnabled="True" RightTapped="AppBarButton_RightTapped"/>
             </CommandBar.SecondaryCommands>
             <AppBarButton x:Uid="OpenLocalBook" Icon="OpenFile" Label="" Click="AppBarButton_Click_OpenLocalFile"/>

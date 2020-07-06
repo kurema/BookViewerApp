@@ -84,8 +84,10 @@ namespace BookViewerApp.Books.Image
 
         public async Task SetBitmapAsync(BitmapImage image)
         {
+            if (stream == null || image == null) return;
             stream.Seek(0);
             image.SetSource(stream);
+            //久々に動かすとnull例外。何か挙動が変わった？
         }
 
         public async Task<bool> UpdateRequiredAsync()

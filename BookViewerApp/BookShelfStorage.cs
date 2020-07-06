@@ -37,6 +37,7 @@ namespace BookViewerApp
             try
             {
                 var f = await GetDataFileLocalAsync();
+                if (f == null) return null;
                 using (var s = (await f.OpenAsync(Windows.Storage.FileAccessMode.Read)).AsStream())
                 {
                     var serializer = new System.Xml.Serialization.XmlSerializer(typeof(BookShelf[]));
