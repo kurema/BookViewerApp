@@ -5,6 +5,13 @@ A plain and simple book reader app on Windows 10 UWP.
 
 本棚機能付き読書アプリ
 
+# INFO
+Moved to
+https://github.com/kurema/BookViewerApp3
+
+Currently under development.  
+Not yet in Store, but will be soon.
+
 # FAQ
 Q: How to add books to bookshelf?  
 A: Click on the folder icon at bottom.
