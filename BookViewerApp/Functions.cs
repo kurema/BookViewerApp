@@ -48,8 +48,37 @@ namespace BookViewerApp
                 await stream.ReadAsync(ibuffer, (uint)stream.Size, Windows.Storage.Streams.InputStreamOptions.None);
                 await fileStream.WriteAsync(ibuffer);
             }
-
         }
+
+        public static IEnumerable<T> SortByArchiveEntry<T>(IEnumerable<T> entries, Func<T, string> titleProvider)
+        {
+            Func<T, bool> SortCover = (a) => !titleProvider(a).ToLower().Contains("cover");
+            Func<T, NaturalSort.NaturalList> SortNatural = (a) => new NaturalSort.NaturalList(titleProvider(a));
+
+            if ((bool)SettingStorage.GetValue("SortNaturalOrder"))
+            {
+                if ((bool)SettingStorage.GetValue("SortCoverComesFirst"))
+                {
+                    return entries.OrderBy(SortCover).ThenBy(SortNatural);
+                }
+                else
+                {
+                    return entries.OrderBy(SortNatural);
+                }
+            }
+            else
+            {
+                if ((bool)SettingStorage.GetValue("SortCoverComesFirst"))
+                {
+                    return entries.OrderBy(SortCover).ThenBy(titleProvider);
+                }
+                else
+                {
+                    return entries.OrderBy(titleProvider);
+                }
+            }
+        }
+
 
     }
 }

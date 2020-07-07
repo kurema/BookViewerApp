@@ -63,20 +63,7 @@ namespace BookViewerApp.Books.Compressed
                         }
                     }
 
-                    IOrderedEnumerable<SharpCompress.Archives.IArchiveEntry> tempOrder;
-                    if ((bool)SettingStorage.GetValue("SortNaturalOrder"))
-                    {
-                        tempOrder = entries.OrderBy((a) => new NaturalSort.NaturalList(a.Key));
-                    }
-                    else
-                    {
-                        tempOrder = entries.OrderBy((a) => a.Key);
-                    }
-                    if ((bool)SettingStorage.GetValue("SortCoverComesFirst"))
-                    {
-                        tempOrder = tempOrder.ThenBy((a) => a.Key.ToLower().Contains("cover"));
-                    }
-                    entries = tempOrder.ToList();
+                    entries = Functions.SortByArchiveEntry(entries, (a) => a.Key).ToList();
                     Entries = entries.ToArray();
                     OnLoaded();
                 }
