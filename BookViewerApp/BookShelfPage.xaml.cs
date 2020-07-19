@@ -307,5 +307,10 @@ namespace BookViewerApp
                 e.Handled = true;
             }
         }
+
+        private async void AppBarButton_Click_Migration(object sender, RoutedEventArgs e)
+        {
+            await Functions.OpenMigration();
+        }
     }
 }

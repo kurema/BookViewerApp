@@ -79,6 +79,9 @@ namespace BookViewerApp
             }
         }
 
-
+        public async static Task OpenMigration()
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri(@"ms-windows-store://pdp/?productid=9N607JHLBCZB"));
+        }
     }
 }

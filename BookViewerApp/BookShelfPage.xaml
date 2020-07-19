@@ -20,6 +20,7 @@
                 <AppBarButton x:Uid="SetThisBookShelfSecret" Icon="Clear" Label="" Click="AppBarButton_Click_SetThisBookShelfSecret" x:Name="AppBarButtonToggleSecret" Visibility="Collapsed"/>
                 <AppBarButton Label="{x:Bind Converter={StaticResource vc_localize},ConverterParameter=Setting/Label,TargetNullValue=0,Mode=OneWay}" Click="AppBarButton_Click_GoToSetting"/>
                 <AppBarButton x:Uid="AboutThisApp" Tapped="AppBarButton_Click_GoToInfoPage" IsRightTapEnabled="True" RightTapped="AppBarButton_RightTapped"/>
+                <AppBarButton Label="{x:Bind Converter={StaticResource vc_localize},ConverterParameter=Migration/General/Title,TargetNullValue=0,Mode=OneWay}" Click="AppBarButton_Click_Migration" />
             </CommandBar.SecondaryCommands>
             <AppBarButton x:Uid="OpenLocalBook" Icon="OpenFile" Label="" Click="AppBarButton_Click_OpenLocalFile"/>
             <AppBarButton x:Uid="AddLocalDirectory" Icon="Folder" Label="" Click="AppBarButton_Click_AddLocalDirectory"/>

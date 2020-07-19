@@ -18,6 +18,7 @@
         <ValueConverter:RateToPersantageValueConverter x:Key="RateToPersantageConverter"/>
         <ValueConverter:BookIdToImageSource x:Key="BookIdToImageSource"/>
         <ValueConverter:FloatEqualOneToVisibilityConverter x:Key="FloatEqualOneToVisibilityConverter" />
+        <ValueConverter:LocalizeConverter x:Key="vc_localize"/>
     </UserControl.Resources>
     <Grid>
         <Grid.RowDefinitions>
@@ -92,6 +93,7 @@
                     <AppBarButton x:Uid="BookNext" Command="{Binding GoNextBookCommand}"/>
                     <AppBarButton x:Uid="PageReverse" Command="{Binding SwapReverseCommand}"/>
                     <AppBarButton x:Uid="GoToBookShelf" Click="AppBarButton_GoToBookshelf"/>
+                    <!--<AppBarButton Label="{x:Bind Converter={StaticResource vc_localize},ConverterParameter=Migration/General/Title,TargetNullValue=0,Mode=OneWay}" Click="AppBarButton_Migration" />-->
                 </CommandBar.SecondaryCommands>
             </CommandBar>
         </StackPanel>

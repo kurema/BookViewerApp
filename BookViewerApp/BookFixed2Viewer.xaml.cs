@@ -318,5 +318,10 @@ namespace BookViewerApp
             MakeStackPanelZoomVisibleForAWhile();
             MakeCommandBarVisibleForAWhile();
         }
+
+        private async void AppBarButton_Migration(object sender, RoutedEventArgs e)
+        {
+            await Functions.OpenMigration();
+        }
     }
 }
