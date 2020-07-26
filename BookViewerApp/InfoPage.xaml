@@ -106,6 +106,12 @@
                         <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Text="{Binding Description}"/>
                     </Grid>
                 </GridViewItem>
+                <GridViewItem Background="{StaticResource BrushIndigo}" Style="{StaticResource TileWide}">
+                    <Grid>
+                        <TextBlock VerticalAlignment="Bottom" Text="Italian translation"/>
+                        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Text="Emanuele"/>
+                    </Grid>
+                </GridViewItem>
                 <GridViewItem Background="{StaticResource BrushTeal}" Style="{StaticResource TileLicense}">
                     <Grid>
                         <TextBlock VerticalAlignment="Bottom" Text="License"/>
