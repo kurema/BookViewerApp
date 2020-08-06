@@ -6,7 +6,8 @@ A plain and simple book reader app on Windows 10 UWP.
 本棚機能付き読書アプリ
 
 # Info
-New version is released
+New version is released.
+
 [GitHub](https://github.com/kurema/BookViewerApp3)  
 <a href='//www.microsoft.com/store/apps/9n607jhlbczb?cid=storebadge&ocid=badge'><img src='https://developer.microsoft.com/en-us/store/badges/images/English_get-it-from-MS.png' alt='English badge' width='142px' height='52px'/></a>
 
