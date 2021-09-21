@@ -1,0 +1,125 @@
+# https://github.com/ArchieCoder/MyGitHubApp
+# http://www.dotnetapp.com/github-actions-for-uwp-apps-the-good-and-the-bad-and-the-ugly/
+
+name: Release builder
+
+on:
+  push:
+    tags: 'v*'
+  workflow_dispatch:
+  
+jobs:
+  release:
+    runs-on: windows-latest
+
+    env:
+      SigningCertificate: BookViewerApp_TemporaryKey_GitHub.pfx
+      Solution_Path: BookViewerApp.sln
+      UWP_Project_Path: BookViewerApp.csproj
+      UWP_Project_Directory: .\BookViewerApp\
+
+    steps:
+
+    - name: Configure Pagefile
+      uses: al-cheb/configure-pagefile-action@v1.2
+      with:
+        minimum-size: 32GB
+        maximum-size: 32GB
+        disk-root: "C:"
+    
+    - name: Get tag
+      id: tag
+      if: github.event_name == 'push'
+      uses: dawidd6/action-get-tag@v1
+
+    - name: Use tag
+      if: github.event_name == 'push'
+      run: echo ${{steps.tag.outputs.tag}}
+
+    - name: Extract version from tag
+      uses: Amadevus/pwsh-script@v2
+      id: getVersion
+      with:
+        script: |
+          if ($github.event_name -eq 'push'){
+            ("${{steps.tag.outputs.tag}}").Split("v")[1]
+          } else {
+            'test'
+          }
+
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Setup MSBuild.exe
+      uses: microsoft/setup-msbuild@v1.0.2
+
+    - name: Update manifest version
+      if: github.event_name == 'push'
+      run: |
+        [xml]$manifest = get-content ".\$env:UWP_Project_Directory\Package.appxmanifest"
+        $manifest.Package.Identity.Version = "${{steps.getVersion.outputs.result}}"
+        $manifest.save(".\$env:UWP_Project_Directory\Package.appxmanifest")
+    
+    - name: Update thumbprint
+      run: |
+        function UpdateThumbprint($solution_path){
+          $csprojs = Get-ChildItem "$($solution_path)*.csproj"
+          [xml]$sol = get-Content $csprojs[0].FullName
+          $sol.Project.PropertyGroup[0].PackageCertificateThumbprint = "${{ secrets.Pfx_Base64_Thumbprint }}"
+          $sol.save($csprojs[0].FullName)
+        }
+        UpdateThumbprint($env:UWP_Project_Directory)
+        
+    - name: Decode the Pfx
+      run: |
+        $pfx_cert_byte = [System.Convert]::FromBase64String("${{ secrets.Pfx_Base64_Encoded }}")
+        $currentDirectory = Get-Location
+        $certificatePath1 = Join-Path -Path $currentDirectory -ChildPath $env:UWP_Project_Directory -AdditionalChildPath $env:SigningCertificate
+        [IO.File]::WriteAllBytes("$certificatePath1", $pfx_cert_byte)
+        
+    - name: Build the sideload solution
+      run: msbuild $env:Solution_Path /p:Platform=x86 /p:Configuration=$env:Configuration /p:AppxBundle=$env:AppxBundle /p:UapAppxPackageBuildMode=$env:BuildMode /p:AppxBundlePlatforms="x86|x64|ARM|ARM64" /p:AppxPackageDir=C:\DeployOutput /p:PackageCertificateKeyFile=$env:SigningCertificate /restore 
+      env:
+        AppxBundle: Always
+        BuildMode: StoreUpload
+        Configuration: Release
+
+    - name: Remove the .pfx
+      run: |
+        Remove-Item -path $env:UWP_Project_Directory/$env:SigningCertificate
+   
+    - name: Create archive
+      run: Compress-Archive -Path C:\DeployOutput\* -DestinationPath C:\DeployOutput\StorePackage_${{steps.getVersion.outputs.result}}.zip
+
+    - name: Create release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      if: github.event_name == 'push'
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: ${{steps.tag.outputs.tag}}
+        draft: false
+        prerelease: false
+
+    - name: Update release asset
+      id: upload-release-asset
+      uses: actions/upload-release-asset@v1
+      if: github.event_name == 'push'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: C:\DeployOutput\StorePackage_${{steps.getVersion.outputs.result}}.zip
+        asset_name: StorePackage_${{steps.getVersion.outputs.result}}.zip
+        asset_content_type: application/zip
+        
+    - name: Upload to artifact 
+      uses: actions/upload-artifact@v2
+      if: github.event_name == 'workflow_dispatch'
+      with:
+        name: StorePackage
+        path: C:\DeployOutput\StorePackage_${{steps.getVersion.outputs.result}}.zip
