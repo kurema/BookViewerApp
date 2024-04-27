@@ -292,7 +292,7 @@
     <value>打开</value>
   </data>
   <data name="Explorer.Setting" xml:space="preserve">
-    <value>设置:</value>
+    <value>设置</value>
   </data>
   <data name="ExplorerContainer.Bookmarks" xml:space="preserve">
     <value>书签</value>

@@ -13,479 +13,479 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutThisApp.Label" xml:space="preserve">
-    <value>關於此應用</value>
+    <value>Acerca de</value>
   </data>
   <data name="AddLocalDirectory.Label" xml:space="preserve">
-    <value>添加目錄到書架</value>
+    <value>Adicionar um diretório</value>
   </data>
   <data name="AppName" xml:space="preserve">
     <value>BookViewer 3</value>
   </data>
-  <data name="BookmarkLast.Title" xml:space="preserve">
-    <value>[最後頁]</value>
-  </data>
-  <data name="BookmarkTop.Title" xml:space="preserve">
-    <value>[首頁]</value>
-  </data>
-  <data name="BookNext.Label" xml:space="preserve">
-    <value>讀下書</value>
-  </data>
-  <data name="BookPrevious.Label" xml:space="preserve">
-    <value>讀以前的書</value>
-  </data>
-  <data name="BookShelfTitleNew" xml:space="preserve">
-    <value>書架</value>
-  </data>
-  <data name="ClearAllBookShelf.Label" xml:space="preserve">
-    <value>清除所有書架</value>
-  </data>
-  <data name="ClearThisBookShelf.Label" xml:space="preserve">
-    <value>刪除書架</value>
-  </data>
-  <data name="GoToBookShelf.Label" xml:space="preserve">
-    <value>去書架</value>
-  </data>
-  <data name="LoadingFolder.Completed.Message" xml:space="preserve">
-    <value>裝載工作已經完成。 謝謝。</value>
-  </data>
-  <data name="LoadingFolder.Started.Message" xml:space="preserve">
-    <value>這將需要一段時間。不要關閉這個應用程序加載時。</value>
-  </data>
-  <data name="LoadingFolder.Title" xml:space="preserve">
-    <value>添加目錄</value>
-  </data>
-  <data name="OpenLocalBook.Label" xml:space="preserve">
-    <value>打開</value>
-  </data>
-  <data name="PageEnd.Label" xml:space="preserve">
-    <value>最後頁</value>
-  </data>
-  <data name="PageLeft.Label" xml:space="preserve">
-    <value>左</value>
-  </data>
-  <data name="PageLeftmost.Label" xml:space="preserve">
-    <value>左端</value>
-  </data>
-  <data name="PageNext.Label" xml:space="preserve">
-    <value>下頁</value>
-  </data>
-  <data name="PagePrevious.Label" xml:space="preserve">
-    <value>上頁</value>
-  </data>
-  <data name="PageReverse.Label" xml:space="preserve">
-    <value>反向頁面方向</value>
-  </data>
-  <data name="PageRight.Label" xml:space="preserve">
-    <value>右</value>
-  </data>
-  <data name="PageRightmost.Label" xml:space="preserve">
-    <value>右端</value>
-  </data>
-  <data name="PageTop.Label" xml:space="preserve">
-    <value>首頁</value>
-  </data>
-  <data name="ReloadBookShelf.Label" xml:space="preserve">
-    <value>更新</value>
-  </data>
-  <data name="SetThisBookShelfSecret.Label" xml:space="preserve">
-    <value>秘密書架</value>
-  </data>
-  <data name="Setting.Label" xml:space="preserve">
-    <value>環境</value>
-  </data>
-  <data name="ToggleFullScreen.Label" xml:space="preserve">
-    <value>切換全屏模式</value>
-  </data>
   <data name="BookmarkBasic.Title" xml:space="preserve">
-    <value>書籤</value>
+    <value>Marcador</value>
   </data>
   <data name="BookmarkLastread.Title" xml:space="preserve">
-    <value>[自動書籤]</value>
+    <value>[Automático]</value>
   </data>
   <data name="Bookmarks.Label" xml:space="preserve">
-    <value>書籤</value>
+    <value>Marcadores</value>
   </data>
   <data name="BookmarkTitle.PlaceholderText" xml:space="preserve">
-    <value>標題</value>
+    <value>Título</value>
   </data>
-  <data name="SwitchBookShelfToggle.ToolTipService.ToolTip" xml:space="preserve">
-    <value>切換書架</value>
+  <data name="BookNext.Label" xml:space="preserve">
+    <value>Ler o próximo livro</value>
   </data>
-  <data name="Welcome_HowToConfigure" xml:space="preserve">
-    <value>如何打開配置頁面</value>
+  <data name="BookPrevious.Label" xml:space="preserve">
+    <value>Ler o livro anterior</value>
   </data>
-  <data name="Welcome_HowToUse" xml:space="preserve">
-    <value>如何使用</value>
+  <data name="LoadingFolder.Completed.Message" xml:space="preserve">
+    <value>O carregamento foi concluído. Obrigado.</value>
   </data>
-  <data name="Welcome_OpenMenu" xml:space="preserve">
-    <value>打開其他功能</value>
+  <data name="LoadingFolder.Started.Message" xml:space="preserve">
+    <value>Isto vai demorar algum tempo. Não feche esta aplicação enquanto carrega.</value>
+  </data>
+  <data name="LoadingFolder.Title" xml:space="preserve">
+    <value>A carregar as pastas</value>
+  </data>
+  <data name="OpenLocalBook.Label" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="PageEnd.Label" xml:space="preserve">
+    <value>Fim</value>
+  </data>
+  <data name="PageLeft.Label" xml:space="preserve">
+    <value>Esquerda</value>
+  </data>
+  <data name="PageLeftmost.Label" xml:space="preserve">
+    <value>Mais à esquerda</value>
+  </data>
+  <data name="PageNext.Label" xml:space="preserve">
+    <value>Próximo</value>
+  </data>
+  <data name="PagePrevious.Label" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="PageReverse.Label" xml:space="preserve">
+    <value>Inverter a direção da página</value>
+  </data>
+  <data name="PageRight.Label" xml:space="preserve">
+    <value>Direita</value>
+  </data>
+  <data name="PageRightmost.Label" xml:space="preserve">
+    <value>Mais à direita</value>
+  </data>
+  <data name="PageTop.Label" xml:space="preserve">
+    <value>Início</value>
+  </data>
+  <data name="Setting.Label" xml:space="preserve">
+    <value>Definição</value>
   </data>
   <data name="Setting_DefaultFullScreen.Description" xml:space="preserve">
-    <value>打開書本時將全屏模式設置為打開。</value>
+    <value>Ligar o modo ecrã inteiro quando se abre um livro.</value>
   </data>
   <data name="Setting_DefaultFullScreen.Title" xml:space="preserve">
-    <value>將全屏設置為默認</value>
+    <value>Definir ecrã inteiro como predefinição</value>
   </data>
   <data name="Setting_DefaultPageReverse.Description" xml:space="preserve">
-    <value>當您打開一本新書時，默認情況下為反向頁面。</value>
+    <value>Definir a orientação da página R2L(Da direita para a esquerda) como predefinição no novo livro.</value>
   </data>
   <data name="Setting_DefaultPageReverse.Title" xml:space="preserve">
-    <value>默認為反向頁面</value>
+    <value>R2L como predefinição</value>
   </data>
   <data name="Setting_SaveLastReadPage.Description" xml:space="preserve">
-    <value>自動打開您上次閱讀的頁面。</value>
+    <value>Abrir automaticamente a página onde leu da última vez.</value>
   </data>
   <data name="Setting_SaveLastReadPage.Title" xml:space="preserve">
-    <value>自動打開最後閱讀的頁面</value>
+    <value>Abrir automaticamente a última página lida</value>
   </data>
   <data name="Setting_ShowRightmostAndLeftmost.Description" xml:space="preserve">
-    <value>在書籍查看器中顯示轉到最右/最左按鈕。</value>
+    <value>Mostrar o botão ir para mais à direita/esquerda no visualizador de livros.</value>
   </data>
   <data name="Setting_ShowRightmostAndLeftmost.Title" xml:space="preserve">
-    <value>顯示轉到最右邊/最左邊的按鈕</value>
+    <value>Mostrar o botão ir para mais à direita/mais à esquerda</value>
   </data>
   <data name="Setting_SyncBookmarks.Description" xml:space="preserve">
-    <value>使用OneDrive同步書籍的書籤。</value>
+    <value>Sincronizar os marcadores dos livros com a nuvem.</value>
   </data>
   <data name="Setting_SyncBookmarks.Title" xml:space="preserve">
-    <value>同步書籍的書籤</value>
+    <value>Sincronização de marcadores de livros</value>
+  </data>
+  <data name="ToggleFullScreen.Label" xml:space="preserve">
+    <value>Alternar o modo ecrã inteiro</value>
   </data>
   <data name="Setting_TileHeight.Description" xml:space="preserve">
-    <value>書架中的書瓦高度。</value>
+    <value>A altura do mosaico do livro na prateleira.</value>
   </data>
   <data name="Setting_TileHeight.Title" xml:space="preserve">
-    <value>書瓦高度</value>
+    <value>Altura do mosaico para livros</value>
   </data>
   <data name="Setting_TileWidth.Description" xml:space="preserve">
-    <value>書架中書瓦的寬度。</value>
+    <value>A largura do mosaico do livro na prateleira.</value>
   </data>
   <data name="Setting_TileWidth.Title" xml:space="preserve">
-    <value>書瓦寬度</value>
+    <value>Largura do mosaico para livros</value>
+  </data>
+  <data name="BookmarkLast.Title" xml:space="preserve">
+    <value>[Fim]</value>
+  </data>
+  <data name="BookmarkTop.Title" xml:space="preserve">
+    <value>[Início]</value>
   </data>
   <data name="Setting_BackgroundBrightness.Description" xml:space="preserve">
-    <value>背景的亮度。 100：白色，0：黑色。 (與黑暗主題相反)</value>
+    <value>Luminosidade de fundo. 100:Branco, 0:Preto. (Oposto no tema escuro)</value>
   </data>
   <data name="Setting_BackgroundBrightness.Title" xml:space="preserve">
-    <value>背景亮度</value>
+    <value>Luminosidade de fundo</value>
   </data>
   <data name="Setting_ScrollAnimation.Description" xml:space="preserve">
-    <value>在圖書查看器上使用滾動動畫。</value>
+    <value>Use a animação scroll no visualizador de livros.</value>
   </data>
   <data name="Setting_ScrollAnimation.Title" xml:space="preserve">
-    <value>滾動動畫</value>
+    <value>Animação do scroll</value>
   </data>
   <data name="Setting_BookNameTrim.Description" xml:space="preserve">
-    <value>匹配的部分隱藏在書名中。以正則表達式輸入。 （例如：\(.*\)）</value>
+    <value>A parte correspondente está oculta no nome do livro. Entrada em expressão regular. (ex:\(.*))</value>
   </data>
   <data name="Setting_BookNameTrim.Title" xml:space="preserve">
-    <value>要修剪的書名</value>
+    <value>Tamanho do título</value>
   </data>
   <data name="Setting_FolderNameToExclude.Description" xml:space="preserve">
-    <value>如果正則表達式匹配，則在書架視圖中排除文件夾。</value>
+    <value>Excluir pasta na vista da prateleira se corresponder em expressão regular.</value>
   </data>
   <data name="Setting_FolderNameToExclude.Title" xml:space="preserve">
-    <value>排除的文件夾名稱</value>
+    <value>Nome da pasta a excluir</value>
   </data>
   <data name="Setting_SortCoverComesFirst.Description" xml:space="preserve">
-    <value>假定在文件名中具有“cover”的圖片是CBZ / CBR中的第一個文件。</value>
+    <value>Assumir fotografia que tenha "capa" no nome do ficheiro para ser o primeiro ficheiro na CBZ/CBR.</value>
   </data>
   <data name="Setting_SortCoverComesFirst.Title" xml:space="preserve">
-    <value>在CBZ / CBR中按文件名假定封面圖片</value>
+    <value>Assumir fotografia de capa por nome de ficheiro na CBZ/CBR</value>
   </data>
   <data name="Setting_SortNaturalOrder.Description" xml:space="preserve">
-    <value>在CBZ / CBR中按自然順序排序（例如：01.jpg→2.jpg→003.jpg）</value>
+    <value>Ordenar por ordem natural na CBZ/CBR (ex:01.jpg→2.jpg→003.jpg)</value>
   </data>
   <data name="Setting_SortNaturalOrder.Title" xml:space="preserve">
-    <value>CBZ / CBR中的自然排序</value>
+    <value>Ordem natural em CBZ/CBR</value>
   </data>
   <data name="Setting_ZoomButtonShowTimespan.Description" xml:space="preserve">
-    <value>觸摸屏幕時顯示縮放按鈕的秒數（0：禁用）。</value>
+    <value>Segundos para exibir o botão de zoom ao tocar no ecrã (0: desativar).</value>
   </data>
   <data name="Setting_ZoomButtonShowTimespan.Title" xml:space="preserve">
-    <value>變焦按鈕顯示時間</value>
+    <value>Tempo de exibição do botão de zoom</value>
   </data>
   <data name="Setting_CommandBarShowTimespan.Description" xml:space="preserve">
-    <value>當您在書本查看器頁面上觸摸屏幕時，以秒為單位顯示菜單（0：始終）。</value>
+    <value>Segundos para exibir o menu quando se toca no ecrã na página do visualizador de livros (0: sempre).</value>
   </data>
   <data name="Setting_CommandBarShowTimespan.Title" xml:space="preserve">
-    <value>書籍查看器中的菜單顯示時間</value>
+    <value>Tempo de exibição do menu no visualizador de livros</value>
+  </data>
+  <data name="Welcome_HowToConfigure" xml:space="preserve">
+    <value>Como alterar as definições</value>
+  </data>
+  <data name="Welcome_HowToUse" xml:space="preserve">
+    <value>Como se usa</value>
+  </data>
+  <data name="Welcome_OpenMenu" xml:space="preserve">
+    <value>Abrir o menu.</value>
   </data>
   <data name="Setting_WebHomePage.Description" xml:space="preserve">
-    <value>首頁</value>
+    <value>Página Inicial.</value>
   </data>
   <data name="Setting_WebHomePage.Title" xml:space="preserve">
-    <value>首頁</value>
+    <value>Página Inicial</value>
   </data>
   <data name="Setting_RespectPageDirectionInfo.Description" xml:space="preserve">
-    <value>遵守PDF的方向信息（R2L / L2R）。</value>
+    <value>Respeitar a informação da direção em PDF (R2L/L2R).</value>
   </data>
   <data name="Setting_RespectPageDirectionInfo.Title" xml:space="preserve">
-    <value>尊重方向信息</value>
+    <value>Respeitar a informação da direção</value>
   </data>
   <data name="Password.Message" xml:space="preserve">
-    <value>輸入密碼以打開。</value>
+    <value>Introduza a palavra-passe para abrir.</value>
   </data>
   <data name="Password.Save.Message" xml:space="preserve">
-    <value>儲存密碼</value>
+    <value>Salvar Palavra-passe</value>
   </data>
   <data name="Password.Title" xml:space="preserve">
-    <value>確認密碼</value>
+    <value>Confirmar Palavra-passe</value>
   </data>
   <data name="Word.Cancel" xml:space="preserve">
-    <value>取消</value>
+    <value>Cancelar</value>
   </data>
   <data name="Word.OK" xml:space="preserve">
-    <value>確定</value>
+    <value>OK</value>
   </data>
   <data name="Setting.Group.Browser" xml:space="preserve">
-    <value>瀏覽器</value>
+    <value>Navegador</value>
   </data>
   <data name="Setting.Group.Cloud" xml:space="preserve">
-    <value>雲端</value>
+    <value>Nuvem</value>
   </data>
   <data name="Setting.Group.Library" xml:space="preserve">
-    <value>圖庫</value>
+    <value>Biblioteca</value>
   </data>
   <data name="Setting.Group.Obsolete" xml:space="preserve">
-    <value>已過時</value>
+    <value>Obsoleto</value>
   </data>
   <data name="Setting.Group.Viewer" xml:space="preserve">
-    <value>檢視器</value>
+    <value>Visualizador</value>
   </data>
   <data name="TabHeader.Bookshelf" xml:space="preserve">
-    <value>書架</value>
+    <value>Prateleira</value>
   </data>
   <data name="TabHeader.BookViewer" xml:space="preserve">
-    <value>檢視器</value>
+    <value>Visualizador</value>
   </data>
   <data name="TabHeader.Home" xml:space="preserve">
-    <value>常用</value>
+    <value>Página Inicial</value>
   </data>
   <data name="TabHeader.Info" xml:space="preserve">
-    <value>資訊</value>
+    <value>Informação</value>
   </data>
   <data name="TabHeader.NewTab" xml:space="preserve">
-    <value>新索引標籤</value>
+    <value>Novo Separador</value>
   </data>
   <data name="TabHeader.Setting" xml:space="preserve">
-    <value>設定</value>
+    <value>Definição</value>
+  </data>
+  <data name="TabHeader.Epub" xml:space="preserve">
+    <value>Epub</value>
   </data>
   <data name="TabHeader.Main" xml:space="preserve">
-    <value>主群組</value>
+    <value>Início</value>
   </data>
   <data name="TabHeader.Browser" xml:space="preserve">
-    <value>瀏覽器</value>
+    <value>Navegador</value>
   </data>
   <data name="TabHeader.Explorer" xml:space="preserve">
-    <value>檔案總管</value>
+    <value>Explorador</value>
   </data>
   <data name="Explorer.Apps" xml:space="preserve">
-    <value>應用程式</value>
+    <value>Aplicações</value>
   </data>
   <data name="Explorer.Browser" xml:space="preserve">
-    <value>瀏覽器</value>
+    <value>Navegador</value>
   </data>
   <data name="Explorer.PickBook" xml:space="preserve">
-    <value>開啟</value>
+    <value>Abrir</value>
   </data>
   <data name="Explorer.Setting" xml:space="preserve">
-    <value>設定</value>
+    <value>Definição</value>
   </data>
   <data name="ExplorerContainer.Bookmarks" xml:space="preserve">
-    <value>書籤</value>
+    <value>Marcadores</value>
   </data>
   <data name="ExplorerContainer.Folders" xml:space="preserve">
-    <value>資料夾</value>
+    <value>Pastas</value>
   </data>
   <data name="ExplorerContainer.Histories" xml:space="preserve">
-    <value>歷史</value>
+    <value>Histórico</value>
   </data>
   <data name="ExplorerContainer.Libraries" xml:space="preserve">
-    <value>文件庫</value>
+    <value>Bibliotecas</value>
   </data>
   <data name="ExplorerContainer.PC" xml:space="preserve">
-    <value>電腦</value>
+    <value>Este PC</value>
   </data>
   <data name="ContextMenu.Folders.RegisterFolder.Title" xml:space="preserve">
-    <value>註冊文件夾</value>
+    <value>Registar uma pasta</value>
   </data>
   <data name="ContextMenu.Folders.UnregisterFolder.Title" xml:space="preserve">
-    <value>取消註冊文件夾</value>
+    <value>Cancelar registo uma pasta</value>
   </data>
   <data name="ContextMenu.Folders.UnregisterFolder.MessageDialog.Message" xml:space="preserve">
-    <value>該文件夾由以下庫引用。
-您確定要註銷嗎？</value>
+    <value>A pasta é referida pela seguinte biblioteca.
+Tem a certeza que quer cancelar o registo?</value>
   </data>
   <data name="ContextMenu.Folders.UnregisterFolder.MessageDialog.Title" xml:space="preserve">
-    <value>取消註冊文件夾</value>
+    <value>Cancelar registo da pasta</value>
   </data>
   <data name="ContextMenu.Library.New.Title" xml:space="preserve">
-    <value>新增媒體櫃</value>
+    <value>Nova biblioteca</value>
   </data>
   <data name="ContextMenu.StorageFolder.AddToLibrary.Title" xml:space="preserve">
-    <value>添加到圖書館</value>
+    <value>Adicionar a uma biblioteca</value>
   </data>
   <data name="ContextMenu.StorageFolder.AddToLibrary.AlreadyRegistered.MessageDialog.Message" xml:space="preserve">
-    <value>該文件夾已被註冊。</value>
+    <value>A pasta já está registada.</value>
   </data>
   <data name="ContextMenu.StorageFolder.AddToLibrary.AlreadyRegistered.MessageDialog.Title" xml:space="preserve">
-    <value>無法註冊</value>
+    <value>Impossível de registar</value>
   </data>
   <data name="Setting_ShowPresetBookmarks.Description" xml:space="preserve">
-    <value>顯示預設書籤。</value>
+    <value>Mostrar marcadores predefinidos.</value>
   </data>
   <data name="Setting_ShowPresetBookmarks.Title" xml:space="preserve">
-    <value>顯示預設書籤</value>
+    <value>Mostrar marcadores predefinidos</value>
   </data>
   <data name="Setting.Group.Explorer" xml:space="preserve">
-    <value>檔案總管</value>
+    <value>Explorador</value>
   </data>
   <data name="Setting_WebSearchEngine.Description" xml:space="preserve">
-    <value>設置從地址欄搜索時使用的搜索引擎URL（以％s代替查詢）。</value>
+    <value>Definir o URL do motor de busca que é utilizado na pesquisa a partir da barra de endereços (%s no lugar da consulta).</value>
   </data>
   <data name="Setting_WebSearchEngine.Title" xml:space="preserve">
-    <value>搜尋</value>
+    <value>Procura</value>
   </data>
   <data name="ContextMenu.Histories.HideHistores.Title" xml:space="preserve">
-    <value>不顯示歷史</value>
+    <value>Ocultar histórico</value>
   </data>
   <data name="ContextMenu.Histories.ShowHistores.Title" xml:space="preserve">
-    <value>顯示歷史</value>
+    <value>Mostrar histórico</value>
   </data>
   <data name="Setting_ShowHistories.Description" xml:space="preserve">
-    <value>顯示歷史。</value>
+    <value>Mostrar histórico.</value>
   </data>
   <data name="Setting_ShowHistories.Title" xml:space="preserve">
-    <value>顯示歷史</value>
+    <value>Mostrar histórico</value>
   </data>
   <data name="ItemType.BookmarkContainer" xml:space="preserve">
-    <value>書籤文件夾</value>
+    <value>Pasta de marcadores</value>
   </data>
   <data name="ItemType.BookmarkItem" xml:space="preserve">
-    <value>書籤項</value>
+    <value>Item de marcador</value>
   </data>
   <data name="ItemType.HistoryItem" xml:space="preserve">
-    <value>歷史項目</value>
+    <value>Item do histórico</value>
   </data>
   <data name="ItemType.PresetBookmark" xml:space="preserve">
-    <value>預設書籤</value>
+    <value>Marcadores predefinidos</value>
   </data>
   <data name="ItemType.LibraryItem" xml:space="preserve">
-    <value>程式庫</value>
+    <value>Biblioteca</value>
   </data>
   <data name="ItemType.SystemFolder" xml:space="preserve">
-    <value>系統資料夾</value>
+    <value>Pasta do Sistema</value>
   </data>
   <data name="ContextMenu.Histories.OpenParent.Title" xml:space="preserve">
-    <value>開啟所屬資料夾</value>
+    <value>Abrir a pasta que contém</value>
   </data>
   <data name="ContextMenu.Bookmarks.HidePreset.Title" xml:space="preserve">
-    <value>隱藏預設書籤</value>
+    <value>Ocultar marcadores predefinidos</value>
   </data>
   <data name="ContextMenu.Bookmarks.ShowPreset.Title" xml:space="preserve">
-    <value>顯示預設書籤</value>
+    <value>Mostrar marcadores predefinidos</value>
   </data>
   <data name="ContextMenu.Library.Unregister.Title" xml:space="preserve">
-    <value>取消註冊該庫</value>
+    <value>Cancelar registo desta biblioteca</value>
   </data>
   <data name="Setting_MaximumHistoryCount.Description" xml:space="preserve">
-    <value>要保存的最大歷史記錄數。</value>
+    <value>Número máximo de históricos a serem salvos.</value>
   </data>
   <data name="Setting_MaximumHistoryCount.Title" xml:space="preserve">
-    <value>歷史數</value>
+    <value>Número de históricos</value>
   </data>
   <data name="ContextMenu.Library.Manage.Title" xml:space="preserve">
-    <value>管理這個圖書館</value>
+    <value>Gerir esta biblioteca</value>
   </data>
   <data name="ContextMenu.Word.New.Title" xml:space="preserve">
-    <value>新增</value>
+    <value>Novo</value>
   </data>
   <data name="Word.Folder" xml:space="preserve">
-    <value>資料夾</value>
+    <value>Pasta</value>
   </data>
   <data name="ContextMenu.Word.NewContaiener.Title" xml:space="preserve">
-    <value>新增資料夾</value>
+    <value>Nova pasta</value>
   </data>
   <data name="ContextMenu.Word.New.Bookmark.Title" xml:space="preserve">
-    <value>書籤</value>
+    <value>Marcador</value>
   </data>
   <data name="Word.Title" xml:space="preserve">
-    <value>標題</value>
+    <value>Título</value>
   </data>
   <data name="Word.URL" xml:space="preserve">
-    <value>網址</value>
+    <value>URL</value>
   </data>
   <data name="ContextMenu.Bookmarks.Edit.Title" xml:space="preserve">
-    <value>編輯</value>
+    <value>Editar</value>
   </data>
   <data name="Info.Info.Contributors" xml:space="preserve">
-    <value>參與者</value>
-  </data>
-  <data name="Info.Info.ThirdParty.License" xml:space="preserve">
-    <value>授權</value>
-  </data>
-  <data name="Info.Info.ThirdParty.LicenseTerms" xml:space="preserve">
-    <value>授權條款</value>
-  </data>
-  <data name="Info.Info.Title" xml:space="preserve">
-    <value>資訊</value>
-  </data>
-  <data name="Info.Info.Translation" xml:space="preserve">
-    <value>翻譯</value>
-  </data>
-  <data name="Info.Info.ThirdParty.Title" xml:space="preserve">
-    <value>第三方通知</value>
-  </data>
-  <data name="Info.Info.BeSponsor" xml:space="preserve">
-    <value>成為贊助商！</value>
-  </data>
-  <data name="Info.Info.Privacy.Description" xml:space="preserve">
-    <value>顯示隱私權政策</value>
-  </data>
-  <data name="Info.Info.Privacy.Title" xml:space="preserve">
-    <value>隱私權</value>
-  </data>
-  <data name="Info.Debug.OpenAppData" xml:space="preserve">
-    <value>開啟數據資料夾。</value>
-  </data>
-  <data name="Info.Debug.Title" xml:space="preserve">
-    <value>除錯</value>
-  </data>
-  <data name="Info.Debug.CopyFAL" xml:space="preserve">
-    <value>複製FutureAccessList信息。</value>
-  </data>
-  <data name="Info.Info.ThirdParty.ThirdParty" xml:space="preserve">
-    <value>協力廠商</value>
+    <value>Contribuidores</value>
   </data>
   <data name="Info.Info.Sponsors" xml:space="preserve">
-    <value>贊助者</value>
+    <value>Patrocinadores</value>
+  </data>
+  <data name="Info.Info.ThirdParty.License" xml:space="preserve">
+    <value>Licença</value>
+  </data>
+  <data name="Info.Info.ThirdParty.LicenseTerms" xml:space="preserve">
+    <value>Termos de licença</value>
+  </data>
+  <data name="Info.Info.Title" xml:space="preserve">
+    <value>Informação</value>
+  </data>
+  <data name="Info.Info.Translation" xml:space="preserve">
+    <value>Tradução</value>
+  </data>
+  <data name="Info.Info.ThirdParty.Title" xml:space="preserve">
+    <value>Notificação de Terceiros</value>
+  </data>
+  <data name="Info.Info.Privacy.Description" xml:space="preserve">
+    <value>Mostrar Política de Privacidade</value>
+  </data>
+  <data name="Info.Info.Privacy.Title" xml:space="preserve">
+    <value>Privacidade</value>
+  </data>
+  <data name="Info.Debug.Title" xml:space="preserve">
+    <value>Debug</value>
+  </data>
+  <data name="Info.Info.ThirdParty.ThirdParty" xml:space="preserve">
+    <value>Terceira Parte</value>
   </data>
   <data name="Info.Info.Developers" xml:space="preserve">
-    <value>開發人員</value>
+    <value>Desenvolvedores</value>
   </data>
   <data name="AppName_Classic" xml:space="preserve">
     <value>BookViewer Classic</value>
   </data>
   <data name="Migration.Dialog.Description" xml:space="preserve">
-    <value>這個應用程式是舊版本。
-請嘗試添加了各種功能的新版本。</value>
+    <value>Foi lançado uma nova versão do BookViewer.
+Isto inclui separadores, Fluent Design, arquivador integrado e numerosas correções de bugs.</value>
   </data>
   <data name="Migration.Dialog.Title" xml:space="preserve">
-    <value>新應用發布了！</value>
+    <value>A nova aplicação foi lançada!</value>
   </data>
   <data name="Migration.General.Title" xml:space="preserve">
-    <value>更新到BookViewer3</value>
+    <value>Atualize para BookViewer3</value>
   </data>
   <data name="Setting_HideMigration.Description" xml:space="preserve">
-    <value>隱藏更新通知按鈕。</value>
+    <value>Ocultar botão de aviso de atualização.</value>
   </data>
   <data name="Setting_HideMigration.Title" xml:space="preserve">
-    <value>隱藏更新通知</value>
+    <value>Ocultar aviso de atualização</value>
   </data>
   <data name="Word.NeverShowAgain" xml:space="preserve">
-    <value>不要再顯示這個。</value>
+    <value>Nunca mais mostrar isto.</value>
   </data>
-  <data name="TabHeader.Epub" xml:space="preserve">
-    <value>Epub</value>
+  <data name="BookShelfTitleNew" xml:space="preserve">
+    <value>Prateleira</value>
+  </data>
+  <data name="ClearAllBookShelf.Label" xml:space="preserve">
+    <value>Limpar todas as prateleiras</value>
+  </data>
+  <data name="ClearThisBookShelf.Label" xml:space="preserve">
+    <value>Limpar esta prateleira</value>
+  </data>
+  <data name="GoToBookShelf.Label" xml:space="preserve">
+    <value>Ir para a prateleira</value>
+  </data>
+  <data name="Info.Debug.CopyFAL" xml:space="preserve">
+    <value>Copiar informação do FutureAccessList.</value>
+  </data>
+  <data name="Info.Debug.OpenAppData" xml:space="preserve">
+    <value>Abrir pasta de dados.</value>
+  </data>
+  <data name="Info.Info.BeSponsor" xml:space="preserve">
+    <value>Seja um patrocinador!</value>
+  </data>
+  <data name="ReloadBookShelf.Label" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="SetThisBookShelfSecret.Label" xml:space="preserve">
+    <value>Ocultar prateleira</value>
+  </data>
+  <data name="SwitchBookShelfToggle.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Trocar de prateleira.</value>
   </data>
 </root>

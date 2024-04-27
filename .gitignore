@@ -203,4 +203,5 @@ Package.StoreAssociation.xml
 
 project.lock.json
 
-/ErrorReports
+/Res/Error Reports
+/Res/GitHub Actions
